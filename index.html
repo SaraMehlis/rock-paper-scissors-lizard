@@ -9,18 +9,31 @@
 </head>
 
 <body>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
+    <h1 id="title">Rock Paper Scissors Lizard Spock</h1>
 
     <!--buttons-->
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <button id="lizard">Lizard</button>
-    <button id="spock">Spock</button>
+
+    <div id="main-button">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+        <button id="lizard">Lizard</button>
+        <button id="spock">Spock</button>
+    </div>
 
     <!--result-->
-    <div id="result"></div>
-
+    <section id="result">
+        <div class="score">
+            <div id="playerScore">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+            <div id="computerScore">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+        </div>
+    </section>
     <script src="assets/js/script.js"></script>
 </body>
 
